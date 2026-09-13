@@ -8,10 +8,9 @@ body{
 
 header{
     background-color: #87ceea;
-    color: #2c3239;
     padding: 1.5rem;
     text-align: center;
-     box-shadow: 0 0.25rem 0.5rem rgba(69, 90, 100, 0.2);
+    box-shadow: 0 0.25rem 0.5rem rgba(69, 90, 100, 0.2);
 }
 
 header h1{
@@ -53,8 +52,6 @@ main{
 }
 
 main section{
-    width: 50%;
-    padding: 2rem 0;
     text-align: center;
 }
 
@@ -76,12 +73,11 @@ main img{
     border-radius:1rem;
 }
 
-#aboutme {
+#aboutme, #projects, #skills, #contact{
     width: 70%;
     padding: 1.5rem;
     margin: 1rem 0;
     background-color: #d8e8ea;
-    color: #2c3239;
     border-radius: 0.5rem;
     box-shadow: 0 0.25rem 0.5rem rgba(69, 90, 100, 0.2);
     box-sizing: border-box;
@@ -92,28 +88,12 @@ main img{
     padding: 1.5rem;
     margin: 1rem 0;
     background-color: #87CEEB;
-    color: #2c3239;
     border-radius: 0.5rem;
     box-shadow: 0 0.25rem 0.5rem rgba(69, 90, 100, 0.2);
-    box-sizing: border-box;
-}
-
-#aboutme p{
-    width: 80%;
-    margin: 0 auto;
     text-align: justify;
-}
-
-#skills {
-    width: 70%;
-    padding: 1.5rem;
-    margin: 1rem 0;
-    background-color: #d8e8ea;
-    color: #2c3239;
-    border-radius: 0.5rem;
-    box-shadow: 0 0.25rem 0.5rem rgba(69, 90, 100, 0.2);
     box-sizing: border-box;
 }
+
 
 #skills ul{
     padding-left: 1.5rem;
@@ -126,22 +106,10 @@ main img{
     margin-left:1rem; 
 }
 
-#projects {
-    width: 70%;
-    padding: 1.5rem;
-    margin: 1rem 0;
-    background-color: #d8e8ea;
-    color: #2c3239;
-    border-radius: 0.5rem;
-    box-shadow: 0 0.25rem 0.5rem rgba(69, 90, 100, 0.2);
-    box-sizing: border-box;
-}
-
 .project-card{
     width: 100%;
     padding: 1.5rem;
     background-color: #87CEEB;
-    color: #2c3239;
     border-radius: 0.5rem;
     box-shadow: 0 0.25rem 0.5rem rgba(69, 90, 100, 0.2);
     box-sizing: border-box;
@@ -164,17 +132,6 @@ main img{
 
 .project-card:hover{
     box-shadow: 0 0.4rem 0.8rem rgba(69, 90, 100, 0.3);
-}
-
-#contact{
-    width: 70%;
-    padding: 1.5rem;
-    margin: 1rem 0;
-    background-color: #d8e8ea;
-    color: #2c3239;
-    border-radius: 0.5rem;
-    box-shadow: 0 0.25rem 0.5rem rgba(69, 90, 100, 0.2);
-    box-sizing: border-box;
 }
 
 #contact a{
@@ -210,7 +167,7 @@ footer a{
         margin: 0.7rem 0;
     }
 
-    main section{
+    #aboutme, #skills, #projects, #contact{
         width: 90%;
     }
 
