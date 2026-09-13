@@ -7,10 +7,11 @@ body{
 }
 
 header{
-    background-color: #87ceea;
+    background-color: #87CEEB;
     padding: 1.5rem;
     text-align: center;
     box-shadow: 0 0.25rem 0.5rem rgba(69, 90, 100, 0.2);
+    margin-bottom:2rem;
 }
 
 header h1{
@@ -36,7 +37,7 @@ nav a{
 }
 
 nav a:hover{
-    color: #fff4ee;
+    color: #455A64;
     text-decoration: underline;
 }
 
@@ -49,6 +50,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap:2rem;
 }
 
 main section{
@@ -76,7 +78,6 @@ main img{
 #aboutme, #projects, #skills, #contact{
     width: 70%;
     padding: 1.5rem;
-    margin: 1rem 0;
     background-color: #d8e8ea;
     border-radius: 0.5rem;
     box-shadow: 0 0.25rem 0.5rem rgba(69, 90, 100, 0.2);
